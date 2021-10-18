@@ -1,0 +1,38 @@
+name: CorePlugin
+author: Qzop
+version: 1.0
+main: me.fairuhc.CorePlugin.main
+description: Core plugin that handles everything outside of 
+             the UHC plugin.
+             
+commands:
+  msg:
+    description: Private Message a player.
+  r:
+    description: Reply to a private message.
+  msgoff:
+    description: turn messages off.
+  msgon:
+    description: turn messages on.
+  promote:
+    description: promote a player.
+  tags:
+    description: gives players a tag prefix.
+  block:
+    description: block a player from messaging you.
+  unblock:
+    description: unblock a player from messaging you.
+  staffchat:
+    description: staff chat.
+  fly:
+    description: all players to fly.
+  gm:
+    description: Change the gamemode of a player.
+  color:
+    description: Change chat color.
+  ping:
+    description: Get the ping of a player.
+  list:
+    description: Shows the list of online players.
+  bc:
+    description: Broadcast a message.
